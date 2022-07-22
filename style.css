@@ -1,0 +1,58 @@
+body{
+    background: url('https://sharpener.tech/static/media/contactUs.404aeb49.svg');
+    background-size: cover;
+    }
+    .parent{
+        border-style: solid;
+        border-width: 5px;
+        border-color: orange;
+        width: 80vw;
+        background-color: whitesmoke;  
+        margin: auto;
+    }
+    label{
+        text-align: left;
+        
+    }
+    form{
+        margin-left: 2px;
+        font-size: 120%;
+    }
+    h1 {text-align: center;}
+    h4{ text-align: center;}
+    p{ text-align: center;}
+    .child{
+        text-align: left;
+        margin: 10px 10px 10px 20px;
+    }
+    .registerbtn {
+        background-color: black;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 98%;
+        opacity: 0.9;
+}
+    .registerbtn:hover {
+        opacity: 1;
+}
+input[type=text], input[type=email],input[type=phone] {
+width: 95%;
+padding: 18px;
+display: inline-block;
+border: 2px;
+background: #f1f1f1;
+}
+input[type=text], input[type=email],input[type=phone]:focus {
+background-color: #f1f1f1;
+outline: none;
+}
+input[type=time], input[type=date] {
+width: 50%;
+padding: 15px;
+display: inline-block;
+border: 1px;
+background: #f1f1f1;
+}
